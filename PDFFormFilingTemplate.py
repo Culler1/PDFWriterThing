@@ -14,15 +14,15 @@ os.makedirs(output_dir, exist_ok=True)
 form_fields = list(fillpdfs.get_form_fields("RTKRequestForm.pdf").keys())
 
 # Static info
-full_name = ""
-company = "USA TODAY Network in Pennsylvania"
-email = "@gannett.com"
+full_name = "My Name"
+company = "My Organization"
+email = "My Email Address"
 address = "123 Paper Street"
-city = "York"
+city = "Dallastown"
 state = "PA"
-zipcode = "17408"
+zipcode = "99999"
 date_today = datetime.date.today().strftime("%B %d, %Y")
-phone_number = '301-555-5309'
+phone_number = '867-555-5309'
 
 records_requested = (
     "I am requesting a list of all settlements involving the school district and the corresponding amount of the settlement (if any) "
